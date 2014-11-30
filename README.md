@@ -3,13 +3,21 @@ nightmare-craigslist
 
 [Nightmare](https://github.com/segmentio/nightmare) plugin for Craigslist.com
 
+### .setLocation(location)
+
+WIP. Set location of Craigslist. Needs to be called before any other functions.
+
 ### .login(email, password)
 
-Login to a Craigslist account. Both email and password are passed as strings.
+WIP. Login to a Craigslist account. Both email and password are passed as strings. Optional.
 
-### .search(query)
+### .search(query, cb)
 
-WIP
+WIP. Query and get results. Callback signature is `cb(results)`. Results will be an array of objects.
+
+### .getListing(url, cb)
+
+WIP. Get a specific listing. Callback signature is `cb(listing)`. Results will be an object, plain text, or HTML.
 
 ### .createListing()
 
