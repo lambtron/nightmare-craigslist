@@ -1,0 +1,19 @@
+{
+  "name": "nightmare-craigslist",
+  "version": "0.0.1",
+  "author": "Andy Jiang",
+  "keywords": [
+    "nightmarejs",
+    "phantomjs",
+    "craigslist"
+  ],
+  "description": "A Nightmare plugin for Craigslist.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/segmentio/nightmare-craigslist.git"
+  },
+  "dependencies": {
+    "superagent": "~0.17.0"
+  },
+  "devDependencies": {}
+}
